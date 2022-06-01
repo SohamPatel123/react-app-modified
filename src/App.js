@@ -47,7 +47,7 @@ function App() {
 
   return (
     <div className="App center">
-      <CirclePicker className="circles" onChangeComplete={colorChangingPallete} />
+      <CirclePicker className="circles center" onChangeComplete={colorChangingPallete} />
       <Grid
         selectedColor={selectedColor}
         matrix={matrix}
