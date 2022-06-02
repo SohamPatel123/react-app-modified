@@ -1,4 +1,4 @@
-import "./App.css";
+import "./css/App.css";
 import { CirclePicker } from "react-color";
 import Grid from "./Grid";
 import { useStack } from "./hooks/useStack";
