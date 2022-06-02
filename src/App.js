@@ -1,11 +1,11 @@
 import "./css/App.css";
 import { CirclePicker } from "react-color";
-import Grid from "./Grid";
+import Grid from "./Components/Grid/Grid.js";
 import { useStack } from "./hooks/useStack";
 import { useState, useEffect } from "react";
-import Button from "./Button";
-import UndoButton from "./UndoButton";
-import RedoButton from "./RedoButton";
+import Button from "./Components/Button.js";
+import UndoButton from "./Components/UndoButton";
+import RedoButton from "./Components/RedoButton";
 
 function App() {
   const undoStack = useStack([]);
